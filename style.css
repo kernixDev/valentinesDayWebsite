@@ -1,0 +1,51 @@
+body {
+    background-color: #ffd6e7;
+}
+
+h1 {
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+button#yes:hover {
+    background-color: lime;
+}
+
+button#no:hover {
+    background-color: red;
+}
+
+button {
+    border-radius: 8px;
+    width: 30%px;
+    height: auto;
+    font-size: 0.8rem;
+    margin-right: 10px;
+    margin-left: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.gif img {
+    margin-top: 5%;
+    width: 250px;
+    height: auto;
+    mix-blend-mode: darken;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
